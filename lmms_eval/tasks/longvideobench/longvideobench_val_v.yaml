@@ -4,7 +4,7 @@ dataset_kwargs:
   cache_dir: longvideobench
   video: True
   force_download: False
-  local_files_only: False
+  local_files_only: True
   # From_YouTube: True
 task: longvideobench_val_v
 test_split: validation
